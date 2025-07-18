@@ -3,7 +3,7 @@ import {links} from "../data/data.jsx";
 
 const Navbar = () => {
     return (
-        <nav className="bg-emerald-300 text-black px-4 py-3 flex items-center justify-between">
+        <nav className="bg-emerald-300 text-white px-4 py-3 flex items-center justify-between">
             <h2 className="text-3xl font-bold">
                 <span className="text-3xl font-bold text-gray-900">Rohit Prashar</span>
             </h2>
@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="flex space-x-4">
                 {links.map((link) => {
                     const {id, name, url} = link;
-                        return <a className="capitalize text-lg hover:text-amber-100 duration-300" key={id} href={url}>{name}</a>
+                        return <a className="capitalize text-lg hover:text-gray-500 duration-300" key={id} href={url}>{name}</a>
                 })}
             </div>
         </nav>
