@@ -12,4 +12,6 @@ tracking-wider -- letter spacing
 mt-4 -- margin top
 gap-x-4 -- gap in x direction
 
-md:gr
+md:grid-cols-2 -- grid in two columns
+lg:grid-cols-3 -- grid in three columns
+md  is for medium screen

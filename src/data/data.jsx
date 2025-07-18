@@ -1,4 +1,7 @@
-import {nanoid} from "nanoid";
+import { nanoid } from "nanoid";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJava, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faServer, faCloud, faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 export const links = [
     {id: nanoid(), name: "Home", url: "/"},
@@ -24,35 +27,35 @@ export const skills = [
     {
         id: nanoid(),
         name: "Java",
-        icon: <faJava className="text-2xl text-emerald-600"/>,
+        icon: <FontAwesomeIcon icon={faJava} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
         text: "With 11 years of experience in Java and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
     },
     {
         id: nanoid(),
         name: "React",
-        icon: <faReact className="text-2xl text-emerald-600"/>,
+        icon: <FontAwesomeIcon icon={faReact} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
         text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
     },
     {
         id: nanoid(),
         name: "CI/CD",
-        icon: <faKubernetes className="text-2xl text-emerald-600"/>,
+        icon: <FontAwesomeIcon icon={faServer} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
         text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
     },
     {
         id: nanoid(),
         name: "Cloud Technologies",
-        icon: <faAzure className="text-2xl text-emerald-600"/>,
+        icon: <FontAwesomeIcon icon={faCloud} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
         text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
     },
     {
         id: nanoid(),
         name: "Data",
-        icon: <faDatabricks className="text-2xl text-emerald-600"/>,
+        icon: <FontAwesomeIcon icon={faDatabase} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
         text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
     },
