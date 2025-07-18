@@ -10,3 +10,4 @@ gap-8 -- gap between two columns
 text-3xl -- font size
 tracking-wider -- letter spacing
 mt-4 -- margin top
+gap-x-4 -- gap in x direction
