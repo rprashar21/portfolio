@@ -16,12 +16,50 @@ export const certificates = [
     {id: nanoid(), name: "medium", url: "https://twitter.com/rohitprashar"},
 ];
 
+
+
 export const projects = [
-    {id: nanoid(), name: "Project 1", url: "https://github.com/rohitprashar"},
-    {id: nanoid(), name: "Project 2", url: "https://github.com/rohitprashar"},
-    {id: nanoid(), name: "Project 3", url: "https://github.com/rohitprashar"},
-    {id: nanoid(), name: "Project 4", url: "https://github.com/rohitprashar"},
+    {
+        id: nanoid(),
+        name: "AI Resume Tailor",
+        url: "https://github.com/rohitprashar/ai-resume-tailor",
+        description: "An AI-powered resume generator that takes a job description and creates a tailored resume, suggests a study plan, and highlights gaps—built with React, Spring Boot, and MongoDB. Solves the real-world hiring prep problem and showcases full-stack integration with intelligent features, ideal for companies valuing AI-enhanced productivity tools."
+    },
+    {
+        id: nanoid(),
+        name: "Distributed CQRS Event Store",
+        url: "https://github.com/rohitprashar/cqrs-eventstore-simulator",
+        description: "A backend simulator using Spring Boot to demonstrate CQRS + Event Sourcing architecture with in-memory event store, DLQ, retry mechanisms, and replay-debug endpoints. Designed for companies building scalable, fault-tolerant distributed systems and want clear auditability and resilience."
+    },
+    {
+        id: nanoid(),
+        name: "Real-Time Delivery Tracker",
+        url: "https://github.com/rohitprashar/delivery-tracking",
+        description: "A telemetry-based system for delivery drivers that stores and queries live location, package count, and item details into Azure Cosmos DB. Uses Azure Functions and Maps API, representing real-time event processing and cloud-native development that logistics or mobility companies demand."
+    },
+    {
+        id: nanoid(),
+        name: "Smart Poller for Integration Tests",
+        url: "https://github.com/rohitprashar/smart-rest-poller",
+        description: "A Java test utility using Fibonacci and exponential backoff polling strategies for async REST calls. Speeds up integration testing in microservices-based systems. Companies looking for CI/CD optimization and robust testing frameworks would benefit from this."
+    },
+    {
+        id: nanoid(),
+        name: "Login Dashboard App (React)",
+        url: "https://github.com/rprashar21/login-dash",
+        description: "Frontend app with secure login, token-based auth, and dashboard views. Built with React and Vite. Fits use cases like admin panels or SaaS dashboards."
+    },
+    {
+        id: nanoid(),
+        name: "CsvLoader",
+        url: "https://github.com/rprashar21/login-dash",
+        description: "Frontend app with secure login, token-based auth, and dashboard views. Built with React and Vite. Fits use cases like admin panels or SaaS dashboards."
+    },
+
+
+
 ];
+
 
 export const skills = [
     {

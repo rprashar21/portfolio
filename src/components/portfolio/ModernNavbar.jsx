@@ -3,7 +3,7 @@ import { FaDownload } from 'react-icons/fa';
 
 // Sample links array (you can use your own)
 const links = [
-    {id: 1, name: "Home", url: "#"},
+    {id: 1, name: "Home", url: "#home"},
     {id: 2, name: "About", url: "#about"},
     {id: 3, name: "Projects", url: "#projects"},
     {id: 4, name: "Contact", url: "#contact"}
@@ -14,7 +14,7 @@ const ModernNavbar = () => {
 
     return (
         <nav
-            className="bg-emerald-400/80 backdrop-blur-sm text-white px-8 py-4 shadow-lg border-b border-emerald-600">
+            className="sticky top-0 z-50 bg-emerald-400/80 backdrop-blur-sm text-white px-8 py-4 shadow-lg border-b border-emerald-600">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 {/* Left: Logo/Name */}
                 <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">

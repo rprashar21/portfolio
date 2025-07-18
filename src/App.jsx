@@ -8,6 +8,7 @@ import About from "./components/portfolio/About.jsx";
 import Contact from "./components/portfolio/Contact.jsx";
 import HeroAbout from "./components/portfolio/HeroAbout.jsx";
 import React from "react";
+import Projects from "./components/portfolio/Projects.jsx";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <HeroAbout/>
             {/*<Hero/>*/}
             <Skills/>
+            <Projects/>
             {/*<About/>*/}
             <Contact/>
         </>

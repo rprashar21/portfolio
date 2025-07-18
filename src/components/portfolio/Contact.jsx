@@ -1,7 +1,7 @@
 import { FaGithubSquare, FaLinkedin, FaMedium } from "react-icons/fa";
 
 const Contact = () => (
-    <section id="contact" className="bg-emerald-50 py-12">
+    <section id="contact" className="bg-emerald-50 py-2">
         <div className="max-w-lg mx-auto px-6 md:px-8">
             <h2 className="text-3xl font-bold text-emerald-700 mb-6">Contact Me</h2>
             <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col gap-6">

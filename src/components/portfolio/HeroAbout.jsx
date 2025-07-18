@@ -4,7 +4,10 @@ import about from '../../assets/about.jpg'
 
 const HeroAbout = () => (
     <section className="bg-emerald-100 py-12">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-8 items-stretch">
+
+        <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-8 items-stretch"
+             id="home">
+
             {/* HERO CARD */}
             <div className=" p-8 flex flex-col items-center justify-center">
                 <h2 className="text-2xl font-bold mb-2 text-emerald-700">Full Stack Web
@@ -28,7 +31,7 @@ const HeroAbout = () => (
             </div>
 
             {/* ABOUT CARD */}
-            <div className=" p-8 flex flex-col items-center justify-center">
+            <div className=" p-8 flex flex-col items-center justify-center" id="about">
                 <h2 className="text-2xl font-bold mb-2 text-emerald-700">I'm Rohit Prashar</h2>
                 <img src={about} alt="coder"
                      className="w-40 md:w-75 rounded-xl border-b-4 border-emerald-200 shadow mb-4"/>
