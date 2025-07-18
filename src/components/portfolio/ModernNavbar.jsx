@@ -18,9 +18,10 @@ const ModernNavbar = () => {
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 {/* Left: Logo/Name */}
                 <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight">
-                    <span className="text-gray-900">Software</span>
-                    <span className="text-white">Engineer</span>
+                    <span className="text-gray-900">Rohit</span>
+                    <span className="text-white"> Prashar</span>
                 </h2>
+
                 {/* Center/Right: Links */}
                 <div className="flex space-x-2 md:space-x-6">
                     {links.map((link) => (
