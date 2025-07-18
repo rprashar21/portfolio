@@ -1,5 +1,5 @@
 import React from 'react';
-import {links} from "../data/data.jsx";
+import {links} from "../../data/data.jsx";
 
 const Navbar = () => {
     return (

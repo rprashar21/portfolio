@@ -1,4 +1,4 @@
-import coder from "../assets/coder.jpg"
+import coder from "../../assets/coder.jpg"
 import {FaGithubSquare, FaLinkedin, FaMedium} from "react-icons/fa"
 
 const Hero = () => {
