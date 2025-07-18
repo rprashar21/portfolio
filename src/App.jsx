@@ -5,6 +5,9 @@ import Hero from "./components/portfolio/Hero.jsx";
 import ModernNavbar from "./components/portfolio/ModernNavbar.jsx";
 import Skills from "./components/portfolio/Skills.jsx";
 import About from "./components/portfolio/About.jsx";
+import Contact from "./components/portfolio/Contact.jsx";
+import HeroAbout from "./components/portfolio/HeroAbout.jsx";
+import React from "react";
 
 
 function App() {
@@ -13,9 +16,11 @@ function App() {
         <>
             {/*<Navbar/>*/}
             <ModernNavbar/>
-            <Hero/>
+            <HeroAbout/>
+            {/*<Hero/>*/}
             <Skills/>
-            <About/>
+            {/*<About/>*/}
+            <Contact/>
         </>
     )
 }
