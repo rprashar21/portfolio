@@ -12,11 +12,11 @@ const Hero = () => {
                         <h2 className="text-3xl font-bold tracking-wider">Full Stack Developer</h2>
                         <p className="mt-4">Hardwork Beats Talent !!</p>
                         <div className="flex gap-x-4 mt-4">
-                            <a href="https://github.com/rohitprashar"><FaGithubSquare
+                            <a href="https://github.com/rohitprashar" target="_blank" rel="noopener noreferrer"><FaGithubSquare
                                 className="text-2xl"/></a>
-                            <a href="https://www.linkedin.com/in/rohit-prashar-3a9b18234/"><FaLinkedin
+                            <a href="https://www.linkedin.com/in/rohit-prashar-3a9b18234/" target="_blank" rel="noopener noreferrer"><FaLinkedin
                                 className="text-2xl"/></a>
-                            <a href="https://medium.com/@rohitprashar712">
+                            <a href="https://medium.com/@rohitprashar712" target="_blank" rel="noopener noreferrer">
                                 <FaMedium className="text-2xl"/></a>
                         </div>
                         <article className="hidden md:block mt-4">
