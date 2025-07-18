@@ -1,3 +1,5 @@
+This is more of what css is doinf for us 
+
 bg-emerald-100 -- more of backgourn color 
 py is padding in y direction    
 mx-auto -- margin left and right auto
@@ -15,3 +17,4 @@ gap-x-4 -- gap in x direction
 md:grid-cols-2 -- grid in two columns
 lg:grid-cols-3 -- grid in three columns
 md  is for medium screen
+bg-slate-100 -- background color
