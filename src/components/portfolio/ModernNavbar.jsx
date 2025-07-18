@@ -1,4 +1,6 @@
-import {useState} from "react";
+import { useState } from "react";
+import { FaDownload } from 'react-icons/fa';
+
 // Sample links array (you can use your own)
 const links = [
     {id: 1, name: "Home", url: "#"},
@@ -36,6 +38,15 @@ const ModernNavbar = () => {
                         </a>
                     ))}
                 </div>
+                {/* Resume Download Button */}
+                <a
+                    href="/resume.pdf" // Update this path to your actual resume file
+                    download
+                    className="ml-4 px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-medium rounded-lg flex items-center gap-2 transition-colors shadow-lg hover:shadow-emerald-700/50"
+                >
+                    <FaDownload className="text-sm" />
+                    <span className="hidden sm:inline">Resume</span>
+                </a>
             </div>
         </nav>
     );
