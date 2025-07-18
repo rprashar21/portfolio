@@ -4,6 +4,7 @@ import Navbar from "./components/portfolio/Navbar.jsx";
 import Hero from "./components/portfolio/Hero.jsx";
 import ModernNavbar from "./components/portfolio/ModernNavbar.jsx";
 import Skills from "./components/portfolio/Skills.jsx";
+import About from "./components/portfolio/About.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <ModernNavbar/>
             <Hero/>
             <Skills/>
+            <About/>
         </>
     )
 }
