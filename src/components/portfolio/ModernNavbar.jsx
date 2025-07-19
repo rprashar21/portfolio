@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { FaDownload, FaBars, FaTimes } from 'react-icons/fa';
+import {FaDownload, FaBars, FaTimes, FaEye} from 'react-icons/fa';
 
 // Sample links array (you can use your own)
 const links = [
@@ -61,14 +61,30 @@ const ModernNavbar = () => {
                     ))}
                 </div>
                 {/* Resume Download Button */}
-                <a
-                    href="/resume.pdf" // Update this path to your actual resume file
-                    download
-                    className="ml-4 px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-medium rounded-lg flex items-center gap-2 transition-colors shadow-lg hover:shadow-emerald-700/50"
-                >
-                    <FaDownload className="text-sm" />
-                    <span className="hidden sm:inline">Resume</span>
-                </a>
+                <div className="flex gap-4">
+                    {/* Download Button */}
+                    <a
+                        href="/resume.pdf"
+                        download
+                        className="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-medium rounded-lg flex items-center gap-2 transition-colors shadow-lg hover:shadow-emerald-700/50"
+                    >
+                        <FaDownload className="text-sm"/>
+                        <span className="hidden sm:inline">Resume</span>
+                    </a>
+
+                    {/* Preview Button */}
+                    <a
+                        href="/resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg flex items-center gap-2 transition-colors shadow-lg hover:shadow-blue-700/50"
+                    >
+                        <FaEye className="text-sm"/>
+                        <span className="hidden sm:inline">Preview</span>
+                    </a>
+                </div>
+
+
             </div>
         </nav>
     );

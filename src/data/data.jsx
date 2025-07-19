@@ -10,11 +10,6 @@ export const links = [
     {id: nanoid(), name: "Contact", url: "/contact"},
 ];
 
-export const certificates = [
-    {id: nanoid(), name: "Github", url: "https://github.com/rohitprashar"},
-    {id: nanoid(), name: "Linkedin", url: "https://www.linkedin.com/in/rohitprashar/"},
-    {id: nanoid(), name: "medium", url: "https://medium.com/@rohitprashar712"},
-];
 
 
 
