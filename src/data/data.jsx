@@ -67,34 +67,34 @@ export const skills = [
         name: "Java",
         icon: <FontAwesomeIcon icon={faJava} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
-        text: "With 11 years of experience in Java and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
+        text: "With over 11 years of hands-on experience, Java has been the backbone of my backend engineering work—ranging from high-throughput distributed systems to complex enterprise-grade applications built with Spring Boot, JPA, and messaging systems like JMS and Kafka."
     },
     {
         id: nanoid(),
         name: "React",
         icon: <FontAwesomeIcon icon={faReact} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
-        text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
+        text: "I use React for building modern, responsive frontend applications that seamlessly interact with REST APIs and cloud-based backends. I'm currently developing full-stack projects using React + Vite and Spring Boot, focusing on authentication flows, form handling, and real-time UI updates."
     },
     {
         id: nanoid(),
         name: "CI/CD",
         icon: <FontAwesomeIcon icon={faServer} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
-        text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
+        text: "I’ve automated and optimized CI/CD pipelines using Azure DevOps, GitHub Actions, and Jenkins—implementing trunk-based development, quality gates, blue-green deployments, and performance-aware integration tests across microservices deployed in AKS."
     },
     {
         id: nanoid(),
         name: "Cloud Technologies",
         icon: <FontAwesomeIcon icon={faCloud} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
-        text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
+        text: "Experienced in designing and deploying cloud-native solutions using Microsoft Azure—working extensively with Azure Kubernetes Service (AKS), Azure Functions, Blob Storage, APIM, and secure service-to-service communication using Managed Identity and Key Vault."
     },
     {
         id: nanoid(),
         name: "Data",
         icon: <FontAwesomeIcon icon={faDatabase} className="text-2xl text-emerald-600" />,
         url: "https://github.com/rohitprashar",
-        text: "With some years of experience in React and 6 years of experience in SpringBoot, I have a deep understanding of the Java programming language and its frameworks."
+        text: "I’ve built data-driven applications using PostgreSQL, Cosmos DB, and Kafka streams. With Databricks and Spark, I’ve handled data ingestion pipelines, batch processing, and real-time analytics. My recent certifications in Azure and Databricks support my transition into data and AI engineering."
     },
 ];

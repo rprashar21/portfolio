@@ -1,16 +1,37 @@
-import { useState } from "react";
-import { FaDownload } from 'react-icons/fa';
+import { useState, useEffect } from "react";
+import { FaDownload, FaBars, FaTimes } from 'react-icons/fa';
 
 // Sample links array (you can use your own)
 const links = [
     {id: 1, name: "Home", url: "#home"},
     {id: 2, name: "About", url: "#about"},
-    {id: 3, name: "Projects", url: "#projects"},
+    {id: 3, name: "certifications", url: "#certifications"},
     {id: 4, name: "Contact", url: "#contact"}
 ];
 
 const ModernNavbar = () => {
-    const [active, setActive] = useState("Home"); // Optional: Track active link
+    const [active, setActive] = useState("Home");
+    const [isOpen, setIsOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
+
+    // Handle scroll effect for navbar
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 10;
+            if (isScrolled !== scrolled) {
+                setScrolled(isScrolled);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [scrolled]);
+
+    // Close mobile menu when clicking on a link
+    const handleLinkClick = (linkName) => {
+        setActive(linkName);
+        setIsOpen(false);
+    };
 
     return (
         <nav
