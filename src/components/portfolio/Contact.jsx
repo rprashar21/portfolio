@@ -83,7 +83,7 @@ const Contact = () => (
                            rel="noopener noreferrer">
                             <FaGithubSquare className="text-3xl hover:text-emerald-800 transition"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/rohit-prashar-3a9b18234/"
+                        <a href="https://www.linkedin.com/in/rohitprashar/"
                            target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="text-3xl hover:text-emerald-800 transition"/>
                         </a>
