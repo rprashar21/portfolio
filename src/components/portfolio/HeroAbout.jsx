@@ -36,7 +36,7 @@ const HeroAbout = () => (
                 <img src={about} alt="coder"
                      className="w-40 md:w-75 rounded-xl border-b-4 border-emerald-200 shadow mb-4"/>
                 <p className="text-lg text-gray-700 mb-4">
-                    I’m a Senior Software Engineer based in London, specializing in Full Stack Web Development with a strong foundation in backend engineering and growing expertise in modern frontend frameworks.
+                    I am a Senior Software Engineer based in London, with extensive expertise in Full Stack Web Development. My core strengths lie in designing and building robust backend systems, complemented by growing proficiency in modern frontend frameworks. I specialize in delivering scalable, high-performance web applications, leveraging my deep understanding of both server-side and client-side technologies to create seamless user experiences
                 </p>
             </div>
         </div>
