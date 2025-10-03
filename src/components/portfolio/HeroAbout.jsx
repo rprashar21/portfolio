@@ -36,7 +36,7 @@ const HeroAbout = () => (
                 <img src={about} alt="coder"
                      className="w-40 md:w-75 rounded-xl border-b-4 border-emerald-200 shadow mb-4"/>
                 <p className="text-mg text-gray-700 mb-4">
-                    I am a Senior Software Engineer based in London, with extensive expertise in
+                    I am a Senior Architect based in London, with extensive expertise in
                     Full Stack Web Development.
                     <br/>
                     I specialize in delivering scalable, high-performance web applications,
